@@ -1,0 +1,28 @@
+Raspberry Networking (with head)
+https://www.raspberrypi.org/documentation/configuration/wireless/README.md
+https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+Raspberry Networking (headless)
+Headless Raspbian WiFi Setup (https://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address/37921#37921)
+Raspbian, since May 2016, checks the contents of the boot directory for a file called wpa_supplicant.conf, and will copy the file into /etc/wpa_supplicant, replacing any existing wpa_supplicant.conf file that may be there. The file in the boot directory is then removed. This can be used to enable headless setup, using the wpa_supplicant.conf settings detailed below. (You will probably want to enable ssh as well.)
+For headless setup, SSH can be enabled by placing a file named 'ssh', without any extension, onto the boot partition of the SD card.
+
+Setting up a static IP address (not recommended)
+https://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address/74428#74428
+
+
+
+Frizzing Documentation
+
+http://fritzing.org/download/
+http://fritzing.org/learning/
+https://github.com/adafruit/Fritzing-Library
+
+
+Sensors
+https://tutorials-raspberrypi.de/raspberry-pi-luftfeuchtigkeit-temperatur-messen-dht11-dht22/
+https://www.instructables.com/id/Lux-Sensor-TSL2561-Raspberry-Pi/
+http://www.netzmafia.de/skripten/hardware/RasPi/kamera/index.html
+http://www.netzmafia.de/skripten/hardware/RasPi/Projekt-Sound/Sound-Adapter.html
+
+NAture40 Image
+https://github.com/Nature40/Sensorboxes/releases/tag/0.9.1
